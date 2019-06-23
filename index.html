@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人主页</title>
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            background-image: url('./src/images/index__bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover 100%;
+            background-position: center;
+        }
+        
+        .container {
+            padding: 100px 0;
+            margin: auto;
+            width: 1200px;
+            text-align: center;
+            opacity: .6;
+        }
+        
+        h1 {
+            overflow: hidden;
+        }
+        
+        ul {
+            display: flex;
+            justify-content: space-around;
+            overflow: hidden;
+            margin: 100px 0 0 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        li {
+            box-sizing: border-box;
+        }
+        
+        li a {
+            padding: 42px 0;
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 1em;
+            color: white;
+        }
+        
+        li a:hover {
+            transition: transform .2s ease-in-out;
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            简单点~ 表达的方式简单点~
+        </h1>
+        <ul>
+            <li>
+                <a href="./mi/dist/index.html" title="Vue-cli + Vue 全家桶构建">小米商城移动端</a>
+            </li>
+            <li>
+                <a href="./vuegram/dist/index.html" title="Vue写的一个小项目">vueGram</a>
+            </li>
+            <li>
+                <a href="./coffee/dist/index.html" title="Sass + webpack 进行构建">咖啡网</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
